@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Platypus - Adaptations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Adaptations</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="adaptations.html">Adaptations</a>
+      <a href="conservation.html">Conservation</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Survival Skills</h2>
+    <p>Platypuses use electroreception in their bills to detect prey. They can close their eyes, ears, and nose underwater, hunting purely through electrical signals in their environment.</p>
+    <button onclick="showFact()">Click for a Fun Fact</button>
+    <p id="fact" style="display:none; margin-top:1rem; color:#e65100;"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Platypus Awareness Project</p>
+  </footer>
+
+  <script>
+    function showFact() {
+      document.getElementById('fact').style.display = 'block';
+      document.getElementById('fact').innerText = "Platypus mothers produce milk but don’t have nipples — the milk seeps through skin patches for their young to lap up!";
+    }
+  </script>
+</body>
+</html>
